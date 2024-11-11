@@ -143,20 +143,74 @@
 | Тест-кейс | Описание теста                                               | Ожидаемый результат         | Фактический результат | Дата       | Вердикт |
 |-----------|--------------------------------------------------------------|-----------------------------|-----------------------|------------|---------|
 | TC1       | Circle.area() с радиусом 5                                   | Площадь ≈ 78.54             | 78.53981633974483     | 11.11.2024 | Ок      |
-| TC2       | Circle.area() с отрицательным радиусом -3                    | Выброс `ValueError`         | ValueError            | 11.11.2024 | Ок      |
+| TC2       | Circle.area() с отрицательным радиусом -3                    | Выброс `ValueError`         | `ValueError`          | 11.11.2024 | Ок      |
 | TC3       | Rectangle.perimeter() с длиной 2_000_000 и шириной 2_000_000 | Периметр = 8_000_000        | 8_000_000             | 11.11.2024 | Ок      |
-| TC4       | Rectangle.perimeter() с некорректным параметром "a"          | Выброс `ValueError`         | ValueError            | 11.11.2024 | Ок      |
+| TC4       | Rectangle.perimeter() с некорректным параметром "a"          | Выброс `ValueError`         | `ValueError`          | 11.11.2024 | Ок      |
 | TC5       | Square.area() с длиной стороны 1_000_000                     | Площадь = 1_000_000_000_000 | 1_000_000_000_000     | 11.11.2024 | Ок      |
-| TC6       | Triangle.area() с отрицательной стороной -5                  | Выброс `ValueError`         | ValueError            | 11.11.2024 | Ок      |
+| TC6       | Triangle.area() с отрицательной стороной -5                  | Выброс `ValueError`         | `ValueError`          | 11.11.2024 | Ок      |
 
 
 ## История коммитов
 
-- commit 69a9a9b0630a0de9dedfb146d76b70d05175139d (HEAD -> new_features_471843, origin/new_features_471843)
+- commit 8db7c68cadd5fccfc309c8bdba1c776995d35826 (HEAD -> labwork3_471843, origin/labwork3_471843)
 Author: ngleym <ngleym@ya.ru>
-Date:   Fri Oct 18 06:02:02 2024 +0300
+Date:   Mon Nov 11 05:37:03 2024 +0300
+ 
+     **updated README.md**
+ 
+- commit b44cbb67bbc98a3638b5a7416800e463a275e975
+Author: ngleym <ngleym@ya.ru>
+Date:   Mon Nov 11 05:35:10 2024 +0300
 
-    **hierarchy fix**
+    **added unittests**
+
+- commit 0ea791157e59c1af4a45c56a4da7db6306abd402
+Author: ngleym <ngleym@ya.ru>
+Date:   Mon Nov 11 05:34:59 2024 +0300
+
+    **main packages update**
+
+- commit dafeeca13f06315247999947d4731a7282e95d8f
+Author: ngleym <ngleym@ya.ru>
+Date:   Mon Nov 11 05:33:39 2024 +0300
+
+    **add __init__.py**
+
+- commit 1de1c8b170b68d8ca6eb0cc6892b40aa407ae580
+Author: ngleym <ngleym@ya.ru>
+Date:   Mon Nov 11 05:33:21 2024 +0300
+
+    **renamed main class packages**
+
+- commit 29b74a3c167d52429b72b6846f77b21c351a61be
+Author: ngleym <ngleym@ya.ru>
+Date:   Mon Nov 11 05:32:44 2024 +0300
+
+    **moved main class packages to separate lib folder**
+
+- commit 6887d0f34a9b7dd426d99c6371a335db9a7365cf (origin/main, origin/HEAD, main)
+Author: ngleym <ngleym@ya.ru>
+Date:   Wed Oct 2 08:45:51 2024 +0300
+
+    **modified file rectangle.py**
+
+- commit db489e59fa67a1e1d544b275e93cab42d214736c
+Author: ngleym <ngleym@ya.ru>
+Date:   Wed Oct 2 08:44:35 2024 +0300
+
+    **added new file triangle.py**
+
+- commit 1fef517f6c31f2b3aaab9f806b94c7f262973717
+Author: ngleym <ngleym@ya.ru>
+Date:   Wed Oct 2 08:43:43 2024 +0300
+
+    **added new file rectangle.py**
+
+- commit e047342a80235e63ef3e3ee53fa389d2ebb6923b
+Author: Nikita <108391756+notakeith@users.noreply.github.com>
+Date:   Fri Oct 18 08:41:19 2024 +0300
+
+    **Update README.md**
 
 - commit 25d93106412cb6994ee4d8163696b0e1a2ef4842
 Author: ngleym <ngleym@ya.ru>
@@ -167,5 +221,5 @@ Date:   Fri Oct 18 05:55:36 2024 +0300
 - commit 4e6b714f4a0947f36e7a4df849ad744c8d13b823
 Author: ngleym <ngleym@ya.ru>
 Date:   Fri Sep 20 09:23:59 2024 +0300
-
-    **added new folder geometric_lib**
+ 
+     **added new folder geometric_lib**
