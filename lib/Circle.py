@@ -1,8 +1,5 @@
 import math
 
-from numpy.f2py.auxfuncs import throw_error
-
-
 class Circle():
     """
     Класс окружности
