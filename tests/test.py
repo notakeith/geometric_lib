@@ -18,7 +18,7 @@ class TestGeometry(unittest.TestCase):
 
     def test_rectangle_perimeter_with_invalid_type(self):
         with self.assertRaises(TypeError):
-            rectangle = Rectangle.Rectangle("a", 5)
+            rectangle = Rectangle.Rectangle("b", 5)
             rectangle.perimeter()
 
     def test_square_area_with_large_side(self):
