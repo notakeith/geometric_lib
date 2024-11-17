@@ -3,7 +3,11 @@ name: Run Unit Tests
 on:
   push:
     branches:
-      - '*'
+      - 'labwork5-471843'
+  pull_request:
+    branches:
+      - 'labwork5-471843'
+
 
 
 jobs:
