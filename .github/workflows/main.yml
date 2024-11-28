@@ -8,6 +8,7 @@ on:
     branches:
       - 'labwork5-471843'
 
+  workflow_dispatch:
 
 
 jobs:
